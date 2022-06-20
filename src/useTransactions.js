@@ -28,7 +28,7 @@ const useTransactions = (title) => {
         labels: filteredCategories.map((c) => c.type),
     }
 
-    return { chartData, total, filteredCategories };
+    return { chartData, total };
 }
 
 export default useTransactions;
