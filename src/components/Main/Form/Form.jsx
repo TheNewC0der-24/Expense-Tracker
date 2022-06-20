@@ -38,8 +38,8 @@ const Form = () => {
                 <FormControl fullWidth>
                     <InputLabel>Type</InputLabel>
                     <Select value={formData.type} onChange={(e) => setFormData({ ...formData, type: e.target.value })}>
-                        <MenuItem value={'income'}>Income</MenuItem>
-                        <MenuItem value={'expense'}>Expense</MenuItem>
+                        <MenuItem value={'Income'}>Income</MenuItem>
+                        <MenuItem value={'Expense'}>Expense</MenuItem>
                     </Select>
                 </FormControl>
             </Grid>
