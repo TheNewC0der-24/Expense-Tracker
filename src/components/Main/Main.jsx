@@ -13,11 +13,11 @@ const Main = () => {
             <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
             <CardContent>
                 <Typography align='center' variant="h5">
-                    Total Balance $100
+                    Total Balance Rs.100
                 </Typography>
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
                     {/* InfoCard... */}
-                    Try saying : Add income or expense for $100 in Category Salary for Monday...
+                    Try saying : Add income or expense for Rs.100 in Category Salary for Monday...
                 </Typography>
                 <Divider />
                 <Form />
