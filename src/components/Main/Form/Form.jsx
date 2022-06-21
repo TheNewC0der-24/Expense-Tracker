@@ -93,7 +93,7 @@ const Form = () => {
                         <>
                             {segment.words.map((w) => w.value).join(' ')}
                         </>
-                    ) : 'Press and hold (SPACEBAR or MIC) to talk !!'}
+                    ) : ` Press and hold (SPACEBAR or MIC) to talk !!`}
                 </Typography>
             </Grid>
 
@@ -124,7 +124,7 @@ const Form = () => {
                 <TextField type="date" label="Date" fullWidth value={formData.date} onChange={(e) => setFormData({ ...formData, date: formatDate(e.target.value) })} />
             </Grid>
 
-            <Button className={classes.button} variant="outlined" color="primary" fullWidth onClick={createTransaction}>Create</Button>
+            <Button className={classes.button} variant="contained" fullWidth onClick={createTransaction}>Create</Button>
         </Grid>
     )
 }

@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
+import { green } from "@material-ui/core/colors";
 
 export default makeStyles(() => ({
     radioGroup: {
@@ -8,5 +9,11 @@ export default makeStyles(() => ({
     },
     button: {
         marginTop: '20px',
+        backgroundColor: green[600],
+        color: '#fff',
+        '&:hover': {
+            color: '#fff',
+            backgroundColor: green[500],
+        }
     },
 }));

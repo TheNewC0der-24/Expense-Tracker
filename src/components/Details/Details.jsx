@@ -14,8 +14,8 @@ const Details = ({ title }) => {
         <Card className={title === 'Income' ? classes.income : classes.expense}>
             <CardHeader title={title} />
             <CardContent>
-                <Typography variant='h5'>
-                    Rs.{total}
+                <Typography variant='h5' style={{ textAlign: 'center' }}>
+                    {total === 0 ? 'No Transactions' : `Total ${title} : Rs.${total}`}
                 </Typography>
                 <Doughnut data={chartData} />
             </CardContent>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { List as MUIList, ListItem, ListItemAvatar, ListItemText, Avatar, ListItemSecondaryAction, IconButton, Slide } from '@material-ui/core';
+import { List as MUIList, ListItem, ListItemAvatar, ListItemText, Avatar, ListItemSecondaryAction, IconButton, Slide, Typography } from '@material-ui/core';
 import { Delete } from '@material-ui/icons';
 
 import { ExpenseTrackerContext } from '../../../context/context';
@@ -28,6 +28,11 @@ const List = () => {
                     </ListItem>
                 </Slide>
             ))}
+            {transactions.length === 0 && (
+                <Typography variant="subtitle1" align="center" style={{ color: 'lightslategrey' }}>
+                    You haven't added any transactions yet -__-
+                </Typography>
+            )}
         </MUIList>
     )
 }
