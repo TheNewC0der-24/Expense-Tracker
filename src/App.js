@@ -9,14 +9,6 @@ import Main from './components/Main/Main';
 const App = () => {
     const classes = useStyles();
 
-    const func = () => {
-        var context = new AudioContext();
-
-        context.resume().then(() => {
-            console.log('Playback resumed');
-        })
-    }
-
     return (
         <div>
             <Grid className={classes.grid} container spacing={0} alignItems="center" justifyContent='center' style={{ height: '100vh' }} >
@@ -30,7 +22,6 @@ const App = () => {
                     <Details title='Expense' />
                 </Grid>
             </Grid>
-            <button onClick={func}>test</button>
             <PushToTalkButtonContainer>
                 <PushToTalkButton />
             </PushToTalkButtonContainer>
