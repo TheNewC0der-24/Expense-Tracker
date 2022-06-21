@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<h1 align='center'>Expense Tracker - powered by SPEECHLY</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About 
+An **Expense Tracker** is a software or application that helps to keep an accurate record of your money inflow and outflow.
 
-## Available Scripts
+## Feature
+* It allows users to track and visualize their finances and where their finances are going towards — especially with voice.
+* Data will store in **local storage**.
+* Income & Expense data is shown in **Charts**.
+* Have lots of categories for income and expense type.
 
-In the project directory, you can run:
+## Accomplishments that I am proud of
+This was my first time incorporating speech into a project! **Made it!**
 
-### `npm start`
+## Built With
+|React.JS|Context API|Material UI|[Chart.JS](https://www.npmjs.com/package/chart.js)|[React Chart.JS-2](https://www.npmjs.com/package/react-chartjs-2)|[Speechly API](https://www.speechly.com/)|
+|---|---|---|---|---|---|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Hosted On
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98da931e-ed81-4e4d-8d2a-9ff04cf2e94b/deploy-status)](https://app.netlify.com/sites/voicepowered-expense-tracker/deploys)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This tracker is hosted on [Netlify](https://www.netlify.com/), hence accessible anywhere.
 
-### `npm test`
+## Dependencies Installed 
+```
+npm i react@16.12.0
+npm i react-dom@16.12.0
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+npm i @material-ui/core
+npm i @material-ui/icons
+npm i @material-ui/lab
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm i @speechly/react-client
+npm i @speechly/react-ui
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm i --save chart.js@^2.9.4
+npm i --save react-chartjs-2@^2.11.2
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm i uuid
+```
 
-### `npm run eject`
+## Setup
+Clone this repository and Run 👇 command in your **terminal**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm i && npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👆 command will redirect you to the [localhost](http://localhost:3000/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Preview
+<p align="Center">
+  <img src="https://github.com/TheNewC0der-24/Expense-Tracker/blob/master/Preview/Preview-1.png" width="400">
+  <img src="https://github.com/TheNewC0der-24/Expense-Tracker/blob/master/Preview/Preview-2.png" width="400">
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Link
+```
+https://voicepowered-expense-tracker.netlify.app/
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--- 
+<h3 align='center'>Hope you like this application :)</h3>
+<h4 align='center'>Show some ❤️ by giving ⭐ to this repository !!</h4>
