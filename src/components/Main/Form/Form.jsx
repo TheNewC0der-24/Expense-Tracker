@@ -52,7 +52,11 @@ const Form = () => {
                         break;
 
                     case 'category':
-                        setFormData({ ...formData, category });
+                        if (incomeCategories.map((iC) => iC.type).includes(category)) {
+                            setFormData({ ...formData, type: 'Income', category });
+                        } else if (expenseCategories.map((eC) => eC.type).includes(category)) {
+                            setFormData({ ...formData, type: 'Expense', category });
+                        }
                         break;
 
                     case 'date':
