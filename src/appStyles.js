@@ -25,6 +25,7 @@ export default makeStyles((theme) => ({
     grid: {
         '& > *': {
             margin: theme.spacing(2),
+            marginBottom: '5rem',
         },
     },
 }));
