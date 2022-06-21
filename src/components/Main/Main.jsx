@@ -23,7 +23,7 @@ const Main = () => {
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
                     <InfoCard />
                 </Typography>
-                <Divider />
+                <Divider className={classes.divider} />
                 <Form />
             </CardContent>
 
