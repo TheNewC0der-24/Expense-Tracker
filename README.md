@@ -21,7 +21,9 @@ This was my first time incorporating speech into a project! **Made it!**
 
 This tracker is hosted on [Netlify](https://www.netlify.com/), hence accessible anywhere.
 
-## Dependencies Installed 
+<details><summary>
+<h2>Dependencies Installed</h2></summary>
+
 ```
 npm i react@16.12.0
 npm i react-dom@16.12.0
@@ -39,6 +41,8 @@ npm i --save react-chartjs-2@^2.11.2
 
 npm i uuid
 ```
+
+</details>
 
 ## Setup
 Clone this repository and Run 👇 command in your **terminal**
